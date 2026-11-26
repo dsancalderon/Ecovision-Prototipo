@@ -1,6 +1,6 @@
 # EcoVision
 
-Prototipo de escritorio que identifica **botellas plásticas, latas de aluminio y cartón** con la cámara del computador y le indica al usuario en qué contenedor del punto ecológico depositarlos. Toda la inferencia corre en el propio equipo, sin internet.
+Aplicación de escritorio que reconoce con la cámara del computador tres materiales reciclables (**botella plástica, lata de aluminio, cartón**) y muestra en pantalla el contenedor del punto ecológico que corresponde. Inferencia 100 % local, sin internet.
 
 Proyecto de grado, Ingeniería de Sistemas, Institución Universitaria Politécnico Grancolombiano (2026). Autor: David Santiago Calderón Giraldo.
 
@@ -12,7 +12,7 @@ Proyecto de grado, Ingeniería de Sistemas, Institución Universitaria Politécn
 1. **Captura.** Un hilo lee la cámara con OpenCV de forma continua y guarda el último fotograma.
 2. **Inferencia.** Otro hilo pasa ese fotograma por un detector YOLOv8n (entrada de 320 px, umbral de confianza 0,75) y guarda la clase, el recuadro y la confianza. Los dos hilos comparten un búfer protegido con un candado.
 3. **Decisión.** La interfaz solo muestra un resultado cuando la misma detección se sostiene durante 1,2 s (con tolerancia de 350 ms a pérdidas breves). Si hay más de un objeto sobre el umbral, pide retirar los demás. Si no reconoce nada, se queda en espera: nunca clasifica como "no aprovechable".
-4. **Presentación.** Un servidor Flask local (solo `127.0.0.1`) sirve el video como MJPEG y envía el estado por *Server-Sent Events* cada 150 ms a una interfaz HTML/CSS/JS mostrada en una ventana de PyWebView.
+4. **Presentación.** Flask, escuchando solo en `127.0.0.1`, entrega el video (MJPEG) y un canal de estado (*Server-Sent Events*, cada 150 ms) a la interfaz HTML/CSS/JS que corre dentro de una ventana PyWebView.
 
 Los diagramas UML (casos de uso, componentes, secuencia, estados, despliegue y actividades) están en `diagramas/` como PlantUML y PNG.
 
@@ -83,7 +83,7 @@ python verification/medir_app.py --seg 60
 
 Lee los contadores internos de la app (`/api/perf`) durante 60 s y reporta tasa de inferencia, fotogramas nuevos analizados y FPS de captura con la interfaz en ejecución.
 
-La app registra sola la latencia de cada resultado mostrado en `outputs/latencias.csv` (desde la primera detección sobre el umbral hasta la tarjeta de resultado). Para resumirla por clase:
+Cada vez que muestra un resultado, la app anota en `outputs/latencias.csv` cuánto pasó entre la primera detección que superó el umbral y la tarjeta en pantalla. Para resumirlo por clase:
 
 ```bash
 python verification/medir_app.py --latencias

@@ -1,6 +1,6 @@
-# Configuración del entrenamiento y de la inferencia del detector
+# Tabla 9 (versión en texto)
 
-Versión en texto de la Tabla 9 del documento de grado. Los parámetros completos del entrenamiento están en `args.yaml` y las métricas por época en `results.csv`.
+Parámetros completos: `args.yaml`. Métricas por época: `results.csv`.
 
 | Parámetro | Valor |
 |---|---|
@@ -17,7 +17,7 @@ Versión en texto de la Tabla 9 del documento de grado. Los parámetros completo
 | Entorno de ejecución de la aplicación | Windows 11 Home (10.0.26200), Python 3.14.0, OpenCV 5.0.0, Flask 3.1.3, PyWebView 6.2.1, Ultralytics 8.4.123, PyTorch 2.13.0 (CPU) |
 | Inferencia en la aplicación | Tamaño de entrada de 320 px; umbral de confianza de 0,75 |
 
-Desempeño sobre la partición de prueba (130 imágenes, 169 instancias):
+Partición de prueba (130 imágenes, 169 instancias):
 
 | Tamaño de entrada | Precisión | Exhaustividad | mAP@0,50 | mAP@0,50:0,95 |
 |---|---|---|---|---|
