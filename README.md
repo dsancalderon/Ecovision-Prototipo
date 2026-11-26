@@ -29,7 +29,7 @@ Los diagramas UML (casos de uso, componentes, secuencia, estados, despliegue y a
 | Prueba (130 imágenes, 640 px) | mAP@0,50 = 0,954 · mAP@0,50:0,95 = 0,798 · precisión 0,977 · exhaustividad 0,954 |
 | Prueba a 320 px (como en la app) | mAP@0,50 = 0,952 · mAP@0,50:0,95 = 0,742 |
 
-Los pesos finales están en `model/best.pt`. El cuaderno de entrenamiento y la carpeta `runs/detect/ecovision_3clases` (curvas, matriz de confusión, `results.csv`) se conservan fuera del repositorio.
+Los pesos finales están en `model/best.pt`. El cuaderno de entrenamiento, los parámetros (`args.yaml`), las curvas, las matrices de confusión y `results.csv` están en `anexos/entrenamiento/`.
 
 ## Evaluación en el equipo de laboratorio
 
@@ -44,7 +44,7 @@ Portátil Intel Core i3-1005G1 (2 núcleos), 3,8 GB de RAM, sin GPU, Windows 11,
 | Latencia de respuesta (62 aciertos, registro automático) | mediana 1,31 s · percentil 95 2,34 s · máximo 3,03 s |
 | Objetos fuera de alcance (50 intentos) | 43 en espera; kraft → cartón 5/10; vidrio → botella 2/10 |
 
-Los registros están en `verification/`: `medir_fps_resultado.json`, `medir_app_resultado.json`, `latencias_2026-11-25.csv` y `latencias_resumen.json`.
+Los registros están en `verification/`: `medir_fps_resultado.json`, `medir_app_resultado.json`, `latencias_2026-11-25.csv` y `latencias_resumen.json`. El protocolo de las pruebas y el registro anotado de los 90 intentos están en `anexos/evaluacion/`; el índice de todos los anexos del documento, en `anexos/README.md`.
 
 ## Requisitos
 

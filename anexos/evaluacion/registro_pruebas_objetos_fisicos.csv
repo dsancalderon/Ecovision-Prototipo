@@ -1,0 +1,72 @@
+n,fecha_hora,objeto_presentado,clase_mostrada,resultado,confianza,latencia_s,fps_captura,inferencias_por_s
+1,2026-11-25 02:43:50,Botella plástica,Botella plástica,correcta,0.883,1.434,9.8,8.9
+2,2026-11-25 02:43:58,Botella plástica,Botella plástica,correcta,0.865,1.368,10.1,11.5
+3,2026-11-25 02:44:34,Botella plástica,Botella plástica,correcta,0.873,1.319,10.0,13.7
+4,2026-11-25 02:45:06,Botella plástica,Botella plástica,correcta,0.899,1.266,10.0,14.7
+5,2026-11-25 02:45:13,Botella plástica,Botella plástica,correcta,0.882,1.363,10.1,14.6
+6,2026-11-25 02:45:20,Botella plástica,Botella plástica,correcta,0.885,1.345,10.0,13.2
+7,2026-11-25 02:45:27,Botella plástica,Botella plástica,correcta,0.866,1.294,10.1,13.4
+8,2026-11-25 02:45:36,Botella plástica,Botella plástica,correcta,0.895,1.26,9.9,14.5
+9,2026-11-25 02:45:43,Botella plástica,Botella plástica,correcta,0.876,1.257,10.0,13.1
+10,2026-11-25 02:45:52,Botella plástica,Botella plástica,correcta,0.901,1.271,10.1,14.7
+11,2026-11-25 02:46:21,Botella plástica,Botella plástica,correcta,0.829,1.778,10.4,14.4
+12,2026-11-25 02:46:46,Botella plástica,Botella plástica,correcta,0.904,1.534,10.0,11.7
+13,2026-11-25 02:46:53,Botella plástica,Botella plástica,correcta,0.892,1.583,10.1,14.5
+14,2026-11-25 02:47:07,Botella plástica,Botella plástica,correcta,0.885,2.313,10.0,14.5
+15,2026-11-25 02:47:51,Botella plástica,Botella plástica,correcta,0.788,1.222,10.0,13.2
+16,2026-11-25 02:48:11,Botella plástica,Lata de aluminio,incorrecta,0.823,1.772,10.0,9.5
+17,2026-11-25 02:48:21,Botella plástica,Botella plástica,correcta,0.847,1.306,10.7,10.0
+18,2026-11-25 02:48:28,Botella plástica,Botella plástica,correcta,0.876,1.246,10.1,13.7
+19,2026-11-25 02:48:46,Botella plástica,Botella plástica,correcta,0.885,1.248,10.0,14.7
+20,2026-11-25 02:48:55,Botella plástica,Botella plástica,correcta,0.800,1.884,10.0,11.9
+21,2026-11-25 02:49:02,Botella plástica,Botella plástica,correcta,0.826,2.466,10.0,14.5
+22,2026-11-25 02:49:32,Botella plástica,Lata de aluminio,incorrecta,0.849,1.249,10.3,13.5
+23,2026-11-25 02:51:24,Cartón,Cartón,correcta,0.872,1.238,10.0,15.1
+24,2026-11-25 02:51:37,Cartón,Cartón,correcta,0.820,1.255,10.1,14.5
+25,2026-11-25 02:52:24,Cartón,Cartón,correcta,0.847,1.23,10.3,14.8
+26,2026-11-25 02:53:05,Cartón,Cartón,correcta,0.856,2.038,10.0,11.1
+27,2026-11-25 02:54:26,Cartón,Cartón,correcta,0.856,1.259,10.0,14.7
+28,2026-11-25 02:54:51,Cartón,Cartón,correcta,0.852,1.776,10.0,13.0
+29,2026-11-25 02:55:13,Cartón,Lata de aluminio,incorrecta,0.864,1.719,10.2,14.8
+30,2026-11-25 02:55:32,Cartón,Lata de aluminio,incorrecta,0.893,1.315,10.0,14.4
+31,2026-11-25 02:56:33,Cartón,Cartón,correcta,0.846,2.125,10.2,13.8
+32,2026-11-25 02:56:52,Cartón,Cartón,correcta,0.908,1.258,10.2,14.1
+33,2026-11-25 02:57:00,Cartón,Lata de aluminio,incorrecta,0.888,1.346,10.1,14.2
+34,2026-11-25 02:57:23,Cartón,Cartón,correcta,0.901,1.215,10.0,14.3
+35,2026-11-25 02:57:29,Cartón,Botella plástica,incorrecta,0.905,1.271,10.2,13.6
+36,2026-11-25 02:57:35,Cartón,Botella plástica,incorrecta,0.896,1.273,10.4,13.4
+37,2026-11-25 02:57:41,Cartón,Botella plástica,incorrecta,0.869,1.306,10.1,13.3
+38,2026-11-25 02:57:51,Cartón,Cartón,correcta,0.897,1.243,10.1,14.1
+39,2026-11-25 02:58:07,Cartón,Botella plástica,incorrecta,0.906,1.245,10.1,12.4
+40,2026-11-25 02:58:14,Cartón,Cartón,correcta,0.938,1.326,10.0,13.6
+41,2026-11-25 02:58:56,Cartón,Cartón,correcta,0.920,1.35,10.1,13.4
+42,2026-11-25 02:59:04,Cartón,Cartón,correcta,0.902,1.269,10.0,14.0
+43,2026-11-25 02:59:10,Cartón,Cartón,correcta,0.896,1.282,10.1,14.5
+44,2026-11-25 02:59:19,Cartón,Cartón,correcta,0.903,2.34,10.2,14.7
+45,2026-11-25 02:59:26,Cartón,Cartón,correcta,0.894,1.282,10.0,14.8
+46,2026-11-25 02:59:32,Cartón,Cartón,correcta,0.923,1.359,10.4,13.9
+47,2026-11-25 02:59:37,Cartón,Cartón,correcta,0.906,1.269,10.3,14.3
+48,2026-11-25 03:00:48,Lata de aluminio,Lata de aluminio,correcta,0.945,1.271,9.9,11.3
+49,2026-11-25 03:00:55,Lata de aluminio,Lata de aluminio,correcta,0.859,1.318,10.0,14.4
+50,2026-11-25 03:01:01,Lata de aluminio,Lata de aluminio,correcta,0.873,1.283,10.2,11.2
+51,2026-11-25 03:01:07,Lata de aluminio,Lata de aluminio,correcta,0.881,1.31,10.2,11.9
+52,2026-11-25 03:01:13,Lata de aluminio,Lata de aluminio,correcta,0.830,1.257,10.1,14.1
+53,2026-11-25 03:01:20,Lata de aluminio,Lata de aluminio,correcta,0.892,1.281,10.0,13.9
+54,2026-11-25 03:01:28,Lata de aluminio,Lata de aluminio,correcta,0.835,2.982,9.9,14.9
+55,2026-11-25 03:01:35,Lata de aluminio,Lata de aluminio,correcta,0.859,1.348,10.1,14.3
+56,2026-11-25 03:01:40,Lata de aluminio,Lata de aluminio,correcta,0.883,1.317,10.1,14.4
+57,2026-11-25 03:01:58,Lata de aluminio,Lata de aluminio,correcta,0.870,1.314,10.0,10.6
+58,2026-11-25 03:02:04,Lata de aluminio,Lata de aluminio,correcta,0.902,1.231,10.2,10.3
+59,2026-11-25 03:02:19,Lata de aluminio,Lata de aluminio,correcta,0.876,1.26,10.0,9.7
+60,2026-11-25 03:02:30,Lata de aluminio,Lata de aluminio,correcta,0.857,3.026,10.1,14.0
+61,2026-11-25 03:02:39,Lata de aluminio,Lata de aluminio,correcta,0.885,1.258,10.1,10.3
+62,2026-11-25 03:02:45,Lata de aluminio,Lata de aluminio,correcta,0.873,2.251,10.0,10.0
+63,2026-11-25 03:03:03,Lata de aluminio,Lata de aluminio,correcta,0.894,1.79,9.9,12.5
+64,2026-11-25 03:03:24,Lata de aluminio,Lata de aluminio,correcta,0.889,1.361,10.0,13.7
+65,2026-11-25 03:03:31,Lata de aluminio,Lata de aluminio,correcta,0.903,1.365,10.0,13.4
+66,2026-11-25 03:03:47,Lata de aluminio,Lata de aluminio,correcta,0.866,1.298,10.0,14.9
+67,2026-11-25 03:04:02,Lata de aluminio,Lata de aluminio,correcta,0.918,1.333,9.9,14.4
+68,2026-11-25 03:04:08,Lata de aluminio,Lata de aluminio,correcta,0.818,1.325,10.1,14.2
+69,2026-11-25 03:04:14,Lata de aluminio,Lata de aluminio,correcta,0.885,1.269,10.1,8.6
+70,2026-11-25 03:04:24,Lata de aluminio,Lata de aluminio,correcta,0.885,1.275,10.0,14.6
+71,2026-11-25 03:04:31,Lata de aluminio,Lata de aluminio,correcta,0.913,1.343,10.1,13.1
